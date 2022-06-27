@@ -1,0 +1,91 @@
+.container-input{
+    padding-top: 40px;
+    .title-todo-app{
+        font-weight: 700;
+        color: aqua;
+        margin-bottom: 30px;
+    }
+    .container-input-header{
+        
+        width: 30%;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 10px;
+        position: relative;
+
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        .container-input-icon{
+            position: absolute;
+            right: 0;
+            color: black;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 12px 12px;
+        }
+        
+        .container-input-icon:hover{
+            color: rgb(19, 193, 181);
+        }
+
+        .input-infor-header{
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            border: 3px solid rgb(40, 174, 112);
+        }
+    }
+
+    .container-input-header:hover{
+        box-shadow: 2px 3px 4px 1px rgb(66, 146, 141);
+    }
+    
+
+    .container-content-body{
+        padding-top: 30px;
+        width: 28%;
+        margin: 0 auto;
+        .container-input-item{
+            height: auto;
+            border-top: 1px solid grey;
+            .container-input-item-content{
+                font-size: 14px;
+            }
+            .input-infor{
+                width: auto;
+                height: 30px;
+                font-size: 16px;
+                color: white;
+                background-color: #545965;
+                border: none;
+                border-radius: 4px;
+            }
+        }
+
+        .container-input-item-icon{
+            // height: 40px;
+            border-top: 1px solid grey;
+            
+            .container-input-item-icon-item{
+                font-size: 16px;
+                margin-right: 8px;
+            }
+
+            .container-input-item-icon-item:hover{
+                cursor: pointer;
+                color: rgb(19, 193, 181);
+    
+            }
+        }
+
+    }
+    
+    
+    
+}
+
